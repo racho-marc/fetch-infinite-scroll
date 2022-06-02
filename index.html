@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Sessions - JavaScript - Infinite Scroll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="main-wrapper">
+        <header class="main-header">
+            <h1>Fetching additional data from an API on infinite scroll.</h1>
+            <h2>Images from Unsplash.com</h2>
+        </header>
+        <div class="loader" id="loader" hidden>
+            <img src="assets/Ellipsis-1s-100px.svg" alt="loader">
+        </div>
+        <div id="imagesContainer" class="list">
+        </div>
+        </maian>
+        <footer>
+            <a href="https://loading.io/" target="_blank"><small>ellipsis loading icon is from loading.io</small></a>
+        </footer>
+        <script src="config.js"></script>
+        <script src="js/fetch-infinite-scroll.js"></script>
+</body>
+
+</html>
